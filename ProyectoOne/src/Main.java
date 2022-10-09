@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println(Suma(10,90,30));
+
         var miCoche = new Coche();
-
         miCoche.AumentaPuerta();
-
         System.out.println(miCoche.numeroPuertas);
     }
 
